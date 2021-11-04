@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.zastap).setOnClickListener {
             findViewById<TextView>(R.id.wyniktext).text = "wynik: " + findViewById<TextView>(R.id.poleT).text.toString()
-        }
+        }//
     }
 }
