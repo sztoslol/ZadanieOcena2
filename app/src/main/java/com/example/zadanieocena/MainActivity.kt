@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.wyniktext).text = "wynik: " + findViewById<TextView>(R.id.poleT).text.toString()
         }
         findViewById<Button>(R.id.suma).setOnClickListener {
-           // findViewById<TextView>(R.id)//
+           // findViewById<TextView>(R.id)////
         }
     }
 }
